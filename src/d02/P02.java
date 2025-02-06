@@ -12,5 +12,8 @@ public class P02 {
         System.out.println("Es 1er número es "+n1+" y el otro "+n2);
         float suma=n1+n2;
         System.out.println("La suma es "+suma);
+        System.out.print("Escribe tu nombre" );
+        String nombre=entrada.nextLine();
+        System.out.println("Gracias "+nombre);
     }
 }
